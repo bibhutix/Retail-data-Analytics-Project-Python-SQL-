@@ -1,8 +1,9 @@
 # Retail-data-Analytics-Project-Python-SQL-
-import kaggle
-import pandas as pd
-import sqlalchemy as sal
+# Required Libraries
+kaggle
+pandas
+sqlalchemy
 
-Connecting Pandas to SQL--
+# Connecting Pandas to SQL--
 engine = sal.create_engine('mssql://USER/Database?DRIVER_NAME')
 conn=engine.connect()
